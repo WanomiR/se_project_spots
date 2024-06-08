@@ -1,0 +1,28 @@
+.profile {
+  display: grid;
+  grid-template-areas:
+    "avatar title new-post"
+    "avatar subtitle new-post"
+    "avatar edit-profile new-post";
+  grid-template-columns: min-content auto min-content;
+}
+
+.profile__picture {
+  grid-area: avatar;
+}
+
+.profile__title {
+  grid-area: title;
+}
+
+.profile__subtitle {
+  grid-area: subtitle;
+}
+
+.profile__edit-button {
+  grid-area: edit-profile;
+}
+
+.profile__new-post-button {
+  grid-area: new-post;
+}
