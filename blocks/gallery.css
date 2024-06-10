@@ -1,0 +1,14 @@
+.gallery {
+  padding: 20px 0 40px;
+  border-top: 1px solid rgba(33, 33, 33, 0.40);
+  border-bottom: 1px solid rgba(33, 33, 33, 0.40);
+}
+
+.gallery__cards {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 20px;
+}
